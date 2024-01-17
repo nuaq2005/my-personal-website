@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+   background-color: #F8F4E3; 
+    text-align: center;
+  }
+  
+  main{
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom:2%;
+  }
+  
+  /* STYLE TEXT */
+  
+  h1 {
+    color: #129490;
+    font-family: 'Franklin Gothic Medium';
+  }
+  
+  h2{
+    font-family: 'Franklin Gothic Medium';
+    color: #129490;
+    text-decoration: underline;
+    margin: 3%;
+  }
+  
+  .desc {
+    background-color: #129490;
+     padding:3%;
+    color:#F8F4E3;
+    font-family: Calibri;
+    font-weight: bold;
+  }
+  #Intro {
+     background-color:#D95D39;
+     margin:2%;
+     padding:3%;
+    color:#F8F4E3;
+    font-family: Calibri;
+    font-weight: bold;
+  }
+  
+  /* STYLE IMAGES */
+  #chicken {
+    max-width:400px;
+    border-radius: 55%;
+    border:4px solid #D95D39;
+  }
+  
+  .proj{
+    margin:2%;
+    border-radius:15%;
+    border:3px solid #3B3561;
+    max-width: 200px;
+  }
+  /* STYLE NAV BAR */
+  
+  ul{
+    list-style-type: none;
+    background-color:#3B3561;
+    overflow:hidden;
+    padding:2px;
+  }
+  
+  li{
+    display:inline;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #F8F4E3;
+    font-family: Calibri;
+    font-weight: bold;
+    padding:4%;
+  }
+  li a:hover{
+    background-color: #129490;
+  }
